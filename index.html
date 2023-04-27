@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+    <link href="css/aos.css" rel="stylesheet">
+    <link href="css/font.css" rel="stylesheet">
+    <style>
+        .bg-fixed {
+            background-attachment: fixed;
+        }
+        .bg-center-center {
+            background-position: center center;
+        }
+        .bg-cover {
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-dark py-5">
+        <div class="container-lg text-white">
+            <div class="row align-items-center g-5">
+
+                <!-- xs => 12, sm => 12, md => 6 ... -->
+                <div class="col-md-6 col-xl-8 text-center text-md-start">
+                    <div class="display-6 fw-semibold mb-2">
+                        Fresh Food Cafe
+                    </div>
+                    <div class="mb-3">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus placeat rerum aliquam excepturi corrupti eum quo, et animi dolor harum odio deserunt qui quaerat iure.
+                    </div>
+                    <div>
+                        <a href="#" class="link-warning me-2"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="link-warning me-2"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="link-warning me-2"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="link-warning me-2"><i class="bi bi-youtube"></i></a>
+                        <a href="#" class="link-warning"><i class="bi bi-pinterest"></i></a>
+                    </div>
+                </div>
+
+                <!-- xs => 4, sm => 4, md => 2 -->
+                <div class="col-4 col-md text-center">
+                    <div class="fs-1 text-warning">
+                        <i class="bi bi-book"></i>
+                    </div>
+                    <div class="fw-semibold">OUR MENU</div>
+                </div>
+
+                <div class="col-4 col-md text-center">
+                    <div class="fs-1 text-warning">
+                        <i class="bi bi-egg-fried"></i>
+                    </div>
+                    <div class="fw-semibold">SPECIALS</div>
+                </div>
+
+                <div class="col-4 col-md text-center">
+                    <div class="fs-1 text-warning">
+                        <i class="bi bi-cup-straw"></i>
+                    </div>
+                    <div class="fw-semibold">DRINKS</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    <div class="bg-fixed bg-center-center bg-cover pt-5" style="background-image: url(img/02.jpeg);">
+        <div class="container-fluid text-white pt-5 mt-5">
+            <div class="row pt-md-5 mt-md-5">
+                <div class="offset-md-6 col-md-6 py-5 mt-5">
+                    <div class="display-6 fw-semibold bg-dark bg-opacity-50 mb-2">
+                        Which is the tastiest food?
+                    </div>
+                    <div class="bg-dark bg-opacity-50">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus placeat rerum aliquam excepturi corrupti eum quo, et animi dolor harum odio deserunt qui quaerat iure.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 bg-center-center bg-cover py-5" style="background-image: url(img/03.jpeg);">
+                <div class="py-5 my-5"></div>
+            </div>
+            <div class="col-md-6 text-center text-white bg-dark py-5">
+                <div class="py-md-5 my-md-5">
+                    <div class="display-6 fw-semibold">
+                        Reviews
+                    </div>
+                    <div class="display-4 text-warning">
+                        <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="px-5 mb-2">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus placeat rerum aliquam excepturi corrupti eum quo, et animi dolor harum odio deserunt qui quaerat iure.
+                    </div>
+                    <div class="fw-semibold text-uppercase">
+                        <i class="bi bi-dash"></i> Diýar
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+        });
+    </script>
+</body>
+</html>
